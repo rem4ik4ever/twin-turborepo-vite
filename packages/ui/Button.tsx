@@ -1,4 +1,6 @@
 import * as React from "react";
-export const Button = () => {
-  return <button>Boop</button>;
+import 'twin.macro'
+
+export const UIButton = () => {
+  return <button tw="text-red-400 border">I'M NOT GETTING ANY STYLES!</button>;
 };
